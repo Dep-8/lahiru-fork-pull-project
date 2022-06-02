@@ -1,16 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="js/index.js">
-    <title>Fork-pull request</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="index.js"></script>
+    <style>
+        #pointer {
+            position: absolute;
+            height: 50px;
+            width: 5%;
+            background: #29cb55;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            animation-name: hello-css3-animation;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+        @keyframes hello-css3-animation {
+            from {
+                color: red;
+            }
+
+            25% {
+                color: blue;
+                /* transform: skew(27deg); */
+            }
+
+            50% {
+                color: green;
+                transform: translateX(-50%) scale(1.5);
+            }
+
+            75% {
+                color: yellow;
+                /* transform: rotate(25deg); */
+            }
+
+            100% {
+                color: black;
+            }
+        }
+
+
+    </style>
 </head>
+
 <body>
-
-
-
+    <div id="pointer">This is fork pull</div>
 </body>
+
 </html>
